@@ -20,5 +20,11 @@ jobs:
         toolchain: stable
         override: true
 
+    - name: Check formatting
+      run: cargo fmt --all -- --check
+
+    - name: Run clippy
+      run: cargo clippy --all-targets --all-features -- -D warnings
+    
     - name: Run tests
       run: cargo test --verbose
