@@ -1,7 +1,6 @@
 # rust-ci-demo
 
-[![CI](https://https://github.com/40tude/ci_demo/actions/workflows/tests.yml/badge.svg)](https://https://github.com/40tude/ci_demo/actions)
-
+[![CI](https://github.com/40tude/ci_demo/actions/workflows/tests.yml/badge.svg)](https://github.com/40tude/ci_demo/actions)
 
 ## About contributions
 This project is developed for personal and educational purposes. Feel free to explore and use it to enhance your own learning in Rust and algorithm.
