@@ -17,8 +17,8 @@ mod tests {
         assert_eq!(add(-2, -3), -5);
     }
 
-    #[test]
-    fn test_add_fail() {
-        assert_eq!(add(1, 1), 42);
-    }
+    // #[test]
+    // fn test_add_fail() {
+    //     assert_eq!(add(1, 1), 42);
+    // }
 }
